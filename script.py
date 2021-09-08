@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # In[14]:
 
 
-df = pd.read_csv('D:/Workspace/forecast/cairns.csv',parse_dates = [3])
+df = pd.read_csv('cairns.csv',parse_dates = [3])
 
 df = df.iloc[:, [3,4]]
 df = df.set_index('valid_start')
